@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 const mapData = (row) => ({
   ...row,
   year: parseInt(row.year),
-  mean: parseFloat(row.mean),
+  mean: parseFloat(parseFloat(row.mean).toFixed(4)),
 })
 
 const useCsv = (filename, atom) => {

@@ -2,6 +2,14 @@ export default {
   header: 'Digital Competence',
   selectPlaceholder: 'Select municipality',
   createdBy: 'Created by',
+  xAxis: 'Publication date',
+  yAxis: 'Digital intensity',
+  names: {
+    agencies: 'Agencies',
+    municipalities: 'Municipalities',
+    OMX30: 'Industry',
+    regions: 'Regions',
+  },
   body: `
   The graph shows the demand for digital competence in a select organization and different national averages over the same period. The foundation consists of a study where we used NLP as a method to analyze all Swedish job-posts during 2006-2020 through an open dataset from the National Employment agency. For additional information on the study, see https://www.digitalforvaltning.se/rapport/den-stora-vagen-av-digital-kompetens/
  
